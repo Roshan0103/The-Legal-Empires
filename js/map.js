@@ -8,3 +8,16 @@ L.marker([12.988458, 80.253928])
   .addTo(map)
   .bindPopup("Thiruvanmiyur, Chennai")
   .openPopup();
+
+//scroll function
+window.addEventListener("scroll", function () {
+  const body = document.body;
+  const scrollY = window.scrollY || window.pageYOffset;
+
+  if (scrollY > 50) {
+    // Adjust this value as needed
+    body.classList.add("scrolled");
+  } else {
+    body.classList.remove("scrolled");
+  }
+});

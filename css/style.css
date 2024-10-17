@@ -3802,39 +3802,69 @@ textarea.form-control {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Added for visibility */
   }
 }
-.subhead{
+.subhead {
   color: rgba(255, 255, 255, 0.582);
+  transition: color 0.3s;
 }
-.free{
+.scrolled .subhead {
+  color: black; 
+.free {
   color: white;
 }
-.practice{
+.practice {
   background-color: #000000;
 }
-.p-area{
+.p-area {
   background-color: #f8f2ea;
 }
-.sectwo{
+.sectwo {
   color: rgba(245, 245, 245, 0.778);
 }
-.last{
+.last {
   color: #ccb48c;
 }
-.ab{
-  background-image: url('/images/bg_5.jpg');
+.ab {
+  background-image: url("/images/bg_5.jpg");
 }
-.para{
+.para {
   color: whitesmoke;
   text-align: center;
   margin-bottom: 20px;
 }
-.parahead{
-  color: #ccb48c ;
+.parahead {
+  color: #ccb48c;
   margin-top: 70px; /* Add space above section titles */
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
-.join{
+.join {
   color: white;
   text-align: center;
   margin-top: 100px;
+}
+.blurred-bg {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px); 
+  border-radius: 5px; 
+  margin-bottom: 0;
+  bottom: 0;
+  padding-left: 10px;
+  margin-top: 0;
+}
+@media (max-width: 767px) {
+  /* Adjust the max-width as needed */
+  .heading-section {
+    margin-bottom: 0; /* Reduce space below heading */
+  }
+
+  .practice-area {
+    margin-bottom: 0; /* Adjust the spacing between practice areas */
+  }
+  .happy{
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+  .happy1{
+    margin-top: 0;
+  }
 }
