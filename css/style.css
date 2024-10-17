@@ -3807,7 +3807,8 @@ textarea.form-control {
   transition: color 0.3s;
 }
 .scrolled .subhead {
-  color: black; 
+  color: black;
+}
 .free {
   color: white;
 }
@@ -3844,8 +3845,8 @@ textarea.form-control {
 .blurred-bg {
   position: relative;
   background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(10px); 
-  border-radius: 5px; 
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
   margin-bottom: 0;
   bottom: 0;
   padding-left: 10px;
@@ -3860,11 +3861,11 @@ textarea.form-control {
   .practice-area {
     margin-bottom: 0; /* Adjust the spacing between practice areas */
   }
-  .happy{
+  .happy {
     margin-bottom: 0;
     margin-top: 20px;
   }
-  .happy1{
+  .happy1 {
     margin-top: 0;
   }
 }
